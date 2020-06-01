@@ -1,0 +1,14 @@
+[user]
+	name = Fabrice Dufils S.
+	email = dev.dafab@gmail.com
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	# Sneak changes into your previous commit
+	sneak = commit -a --amend --no-edit
+	update = "! git checkout master && git pull origin master && git checkout develop && git pull origin develop && git fetch"
+[commit]
+	template = $HOME/.git-files/templates/.git-commit-template
+[core]
+	autocrlf = input

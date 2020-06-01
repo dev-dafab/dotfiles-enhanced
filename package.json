@@ -1,0 +1,26 @@
+{
+  "name": "dotfiles-enhanced",
+  "version": "1.0.0",
+  "description": "## ShellCheck install [ShellCheck](https://github.com/koalaman/shellcheck) for style of bash script",
+  "main": "index.js",
+  "scripts": {
+    "test:bash": "bats",
+    "test:node": "node "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-dafab/dotfiles-enhanced.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-dafab/dotfiles-enhanced/issues"
+  },
+  "homepage": "https://github.com/dev-dafab/dotfiles-enhanced#readme",
+  "devDependencies": {
+    "bats": "^1.1.0",
+    "jest": "^26.0.1",
+    "prettier": "^2.0.5"
+  }
+}

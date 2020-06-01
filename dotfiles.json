@@ -1,0 +1,80 @@
+[
+	{
+		"name": "vim",
+		"os": ["osx", "linux"],
+		"files": [
+			{
+				"source": "nvim",
+				"destination": "~/.config/nvim"
+			},
+			{
+				"source": "vim/vimrc",
+				"destination": "~/.config/nvim/init.vim"
+			}
+		]
+	},
+	{
+		"name": "rofi",
+		"os": ["linux"],
+		"files": [
+			{
+				"source": "rofi/rofirc",
+				"destination": "~/.rofirc"
+			}
+		]
+	},
+	{
+		"name": "xresources",
+		"os": ["linux"],
+		"files": [
+			{
+				"source": "xresources/Xresources",
+				"destination": "~/.Xresources"
+			}
+		]
+	},
+	{
+		"name": "git",
+		"files": [
+			{
+				"source": "git/gitconfig",
+				"destination": "~/.gitconfig"
+			},
+			{
+				"source": "git/gitignore_global",
+				"destination": "~/.gitignore_global"
+			},
+			{
+				"source": "git/git-files",
+				"destination": "~/.git-files"
+			}
+		]
+	},
+	{
+		"name": "fzf",
+		"files": [
+			{
+				"source": "fzf",
+				"destination": "~/.fzf"
+			}
+		]
+	},
+	{
+		"name": "bin",
+		"files": [
+			{
+				"source": "bin",
+				"destination": "~/.bin"
+			}
+		]
+	},
+	{
+		"name": "zsh",
+		"files": [
+			{
+				"source": "zsh/zshrc",
+				"destination": "~/.zshrc"
+			}
+		]
+	}
+]
