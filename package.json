@@ -4,8 +4,15 @@
   "description": "## ShellCheck install [ShellCheck](https://github.com/koalaman/shellcheck) for style of bash script",
   "main": "index.js",
   "scripts": {
-    "test:bash": "bats",
-    "test:node": "node "
+    "pretest": "npm run lint",
+    "test-bash": "bats test/bash",
+    "test-node": "jest",
+    "test": "npm run test-bash && npm run test-node",
+    "lint-node": "prettier --check '**/*.js'",
+    "lint-bash": "shellcheck *.sh",
+    "lint": "lint-node && lint-bash",
+    "lint-fix": "prettier --write '**/*.js'",
+    "build": "echo BUILD :TODO:"
   },
   "repository": {
     "type": "git",
@@ -21,6 +28,7 @@
   "devDependencies": {
     "bats": "^1.1.0",
     "jest": "^26.0.1",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "shellcheck": "^0.4.2"
   }
 }

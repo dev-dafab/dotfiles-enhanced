@@ -1,0 +1,30 @@
+{
+	"core": [
+		"zsh",
+		"git-all",
+		"cmake",
+		"sshfs",
+		"vifm",
+		"build-essential",
+		"zip",
+		"curl",
+		"wget",
+		"httpie",
+		"ripgrep",
+		"tree",
+		"nodejs",
+		"assume-yes",
+		"cargo",
+		"nmap",
+		"sqlite3",
+		"tmux",
+		"tmate",
+		"tmuxinator",
+		"shellcheck",
+		"bats"
+	],
+
+	"clean_up": [
+		"nodejs"
+	]
+}

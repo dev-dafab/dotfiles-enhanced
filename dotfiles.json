@@ -1,5 +1,18 @@
 [
 	{
+		"name": "tmux",
+		"files": [
+			{
+				"source": "tmux/tmux.conf",
+				"destination": "~/.tmux.conf"
+			},
+			{
+				"source": "tmux/tmux-config",
+				"destination": "~/.tmux/plugins/tmux-config"
+			}
+		]
+	},
+	{
 		"name": "vim",
 		"os": ["osx", "linux"],
 		"files": [
