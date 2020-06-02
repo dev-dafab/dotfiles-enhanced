@@ -9,8 +9,8 @@
     "test-node": "jest",
     "test": "npm run test-bash && npm run test-node",
     "lint-node": "prettier --check '**/*.js'",
-    "lint-bash": "shellcheck *.sh",
-    "lint": "lint-node && lint-bash",
+    "lint-bash": "find . -name '*.bash' | xargs shellcheck",
+    "lint": "npm run lint-node && npm run lint-bash",
     "lint-fix": "prettier --write '**/*.js'",
     "build": "echo BUILD :TODO:"
   },
