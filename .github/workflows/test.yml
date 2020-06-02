@@ -28,7 +28,7 @@ jobs:
         node-version: 10.15.0 # optional, default is 10.x
       
     - name: yarn install
-    - run: yarn install
+      run: yarn install
       
     - name: yarn test
-    - run: yarn test
+      run: yarn test

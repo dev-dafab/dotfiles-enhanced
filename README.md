@@ -1,3 +1,4 @@
+![CI](https://github.com/dev-dafab/dotfiles-enhanced/workflows/CI/badge.svg?branch=master)
 
 # Tools
 
