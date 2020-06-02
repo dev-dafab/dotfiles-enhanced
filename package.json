@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "npm run lint",
-    "test-bash": "node_modules/bats/bin/bats test/bash",
+    "test-bash": "bats test/bash",
     "test-node": "jest",
     "test": "npm run test-bash && npm run test-node",
     "lint-node": "prettier --check '**/*.js'",
