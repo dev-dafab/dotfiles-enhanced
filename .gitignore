@@ -42,8 +42,11 @@ node_modules/
 jspm_packages/
 
 plugged/
+plugged/
 configs/vim/plugged/
 configs/vim/UltiSnips/
+configs/vifm/vifminfo
+configs/vifm/vifm-help.txt
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
