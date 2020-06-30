@@ -1,6 +1,6 @@
 core:
   os: darwin
-  dotfiles_location: ~/.dotfiles
+  dotfiles_location: configs
   installation_command: brew
 
 dotfiles:
@@ -32,6 +32,12 @@ dotfiles:
         - source: vim/vimrc.vim
           destination:
           - ~/.vimrc
+  - vim:
+      os: ["linux", "darwin"]
+      files:
+        - source: vifm
+          destination:
+            - ~/.config/vifm
 
   - git gitconfig:
       files:
