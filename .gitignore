@@ -6,6 +6,24 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+.DS_Store
+.vim/backup
+.vim/swap
+.vim/custom-dictionary.utf-8.add
+.vim/pack
+.vim/spell
+.vim/session
+.vim/cscope
+.vim/.netrwhist
+Session.vim
+.ipython/profile_default/*
+!.ipython/profile_default/ipython_config.py
+.ctags
+tags
+*.xcworkspace
+*.xctimeline
+xcuserdata
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 

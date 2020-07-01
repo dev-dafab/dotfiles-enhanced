@@ -62,15 +62,24 @@ dotfiles:
 
   - tmux:
       files:
-        - source: tmux/tmux.tmux
+        - source: tmux/tmux.conf
           destination:
             - ~/.tmux.conf
+        - source: tmux/tmux-config
+          destination:
+            - ~/.tmux/plugins/tmux-config
 
   - fzf:
       files:
         - source: fzf
           destination:
           - ~/.fzf
+
+  - curl:
+      files:
+        - source: curl/curlrc
+          destination:
+          - ~/.curlrc
 
 dependencies:
   simples:
