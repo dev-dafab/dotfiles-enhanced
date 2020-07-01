@@ -19,7 +19,7 @@ dotfiles:
   - xresources:
       os: "linux"
       files:
-        - source: xresources/xresources
+        - source: xresources/Xresources
           destination: ~/.Xresources
 
   - vim:
@@ -53,9 +53,12 @@ dotfiles:
 
   - zsh:
       files:
-        - source: zsh
+        - source: zsh/zshrc.zsh
           destination:
-            - ~/.zsh
+            - ~/.zshrc
+        - source: zsh/zsh-custom-plugins
+          destination:
+            - ~/.zsh-custom-plugins
 
   - tmux:
       files:
