@@ -1,5 +1,4 @@
-xterm*font: terminus-6
-xterm*boldFont: terminus-6
+xterm*font: DejaVuSansMono Nerd Font Book
 xterm*loginShell: true
 xterm*vt100*geometry: 80x50
 xterm*saveLines: 2000
