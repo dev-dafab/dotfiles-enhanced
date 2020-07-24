@@ -18,6 +18,11 @@ dotfiles:
         - source: osx/osx
           destinations: ~/.osx
 
+  - idea:
+      files:
+        - source: idea/ideavimrc.vim
+          destinations: ~/.ideavimrc
+
   - xinitrc:
       os: "linux"
       files:
@@ -102,6 +107,10 @@ dependencies:
       os:
       - name: darwin
         command: custom_install_command install pbcopy
+
+  - java_companes:
+      os:
+        command: sdk install maven gradle dotty groovy kotlin
 
   - virtualbox:
       os:
