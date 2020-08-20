@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
 
 bind_key_reload() {
+
+
    tmux bind r source-file ~/.tmux.conf
 }
 
 default_settings() {
    tmux unbind C-b
    tmux set-option -g prefix C-a
+   tmux set-option -g default-terminal "tmux-256color"
 
    # help escape key to be quicker in vim
    tmux set -sg escape-time 0
