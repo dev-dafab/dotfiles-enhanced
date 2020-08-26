@@ -5,8 +5,10 @@ TMUX_PLUGIN_DIR="~/.tmux/plugins"
 TMUX_PLUGIN_MANAGER_DIR="$TMUX_PLUGIN_DIR/tpm"
 TMUX_PLUGIN_MANAGER_INSTALL_SCRIPT="$TMUX_PLUGIN_MANAGER_DIR/bin/install_plugins"
 
+[[ -d "$TMUX_PLUGIN_MANAGER_DIR" ]] && mkdir -p "$TMUX_PLUGIN_MANAGER_DIR"
+
 function setup() {
-  if [[ ! -d "$TMUX_PLUGIN_MANAGER_DIR" ]]; then
+  if [[ -d "$TMUX_PLUGIN_MANAGER_DIR" ]]; then
     git clone https://github.com/tmux-plugins/tpm $TMUX_PLUGIN_MANAGER_DIR
     # shellcheck disable=SC1091,SC1090
     source "${TMUX_PLUGIN_MANAGER_INSTALL_SCRIPT}"
