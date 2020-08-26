@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-TMUX_PLUGIN_DIR="$HOME/tmux/plugins"
+TMUX_PLUGIN_DIR="$HOME/.tmux/plugins"
 TMUX_PLUGIN_MANAGER_DIR="$TMUX_PLUGIN_DIR/tpm"
 TMUX_PLUGIN_MANAGER_INSTALL_SCRIPT="$TMUX_PLUGIN_MANAGER_DIR/bin/install_plugins"
 
